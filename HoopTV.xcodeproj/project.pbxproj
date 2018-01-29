@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F703D7D201FD8E700AA876B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F703D7C201FD8E700AA876B /* AppDelegate.swift */; };
+		4F703D7F201FD8E700AA876B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F703D7E201FD8E700AA876B /* ViewController.swift */; };
+		4F703D82201FD8E700AA876B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F703D80201FD8E700AA876B /* Main.storyboard */; };
+		4F703D84201FD8E700AA876B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F703D83201FD8E700AA876B /* Assets.xcassets */; };
+		4F703D87201FD8E700AA876B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F703D85201FD8E700AA876B /* LaunchScreen.storyboard */; };
+		4F703D92201FD8E700AA876B /* HoopTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F703D91201FD8E700AA876B /* HoopTVTests.swift */; };
+		4F703D9D201FD8E700AA876B /* HoopTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F703D9C201FD8E700AA876B /* HoopTVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F703D8E201FD8E700AA876B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F703D71201FD8E700AA876B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F703D78201FD8E700AA876B;
+			remoteInfo = HoopTV;
+		};
+		4F703D99201FD8E700AA876B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F703D71201FD8E700AA876B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F703D78201FD8E700AA876B;
+			remoteInfo = HoopTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F703D79201FD8E700AA876B /* HoopTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoopTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F703D7C201FD8E700AA876B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F703D7E201FD8E700AA876B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F703D81201FD8E700AA876B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F703D83201FD8E700AA876B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F703D86201FD8E700AA876B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F703D88201FD8E700AA876B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F703D8D201FD8E700AA876B /* HoopTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoopTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F703D91201FD8E700AA876B /* HoopTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoopTVTests.swift; sourceTree = "<group>"; };
+		4F703D93201FD8E700AA876B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F703D98201FD8E700AA876B /* HoopTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoopTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F703D9C201FD8E700AA876B /* HoopTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoopTVUITests.swift; sourceTree = "<group>"; };
+		4F703D9E201FD8E700AA876B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F703D76201FD8E700AA876B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F703D8A201FD8E700AA876B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F703D95201FD8E700AA876B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F703D70201FD8E700AA876B = {
+			isa = PBXGroup;
+			children = (
+				4F703D7B201FD8E700AA876B /* HoopTV */,
+				4F703D90201FD8E700AA876B /* HoopTVTests */,
+				4F703D9B201FD8E700AA876B /* HoopTVUITests */,
+				4F703D7A201FD8E700AA876B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F703D7A201FD8E700AA876B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F703D79201FD8E700AA876B /* HoopTV.app */,
+				4F703D8D201FD8E700AA876B /* HoopTVTests.xctest */,
+				4F703D98201FD8E700AA876B /* HoopTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F703D7B201FD8E700AA876B /* HoopTV */ = {
+			isa = PBXGroup;
+			children = (
+				4F703D7C201FD8E700AA876B /* AppDelegate.swift */,
+				4F703D7E201FD8E700AA876B /* ViewController.swift */,
+				4F703D80201FD8E700AA876B /* Main.storyboard */,
+				4F703D83201FD8E700AA876B /* Assets.xcassets */,
+				4F703D85201FD8E700AA876B /* LaunchScreen.storyboard */,
+				4F703D88201FD8E700AA876B /* Info.plist */,
+			);
+			path = HoopTV;
+			sourceTree = "<group>";
+		};
+		4F703D90201FD8E700AA876B /* HoopTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F703D91201FD8E700AA876B /* HoopTVTests.swift */,
+				4F703D93201FD8E700AA876B /* Info.plist */,
+			);
+			path = HoopTVTests;
+			sourceTree = "<group>";
+		};
+		4F703D9B201FD8E700AA876B /* HoopTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F703D9C201FD8E700AA876B /* HoopTVUITests.swift */,
+				4F703D9E201FD8E700AA876B /* Info.plist */,
+			);
+			path = HoopTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F703D78201FD8E700AA876B /* HoopTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F703DA1201FD8E700AA876B /* Build configuration list for PBXNativeTarget "HoopTV" */;
+			buildPhases = (
+				4F703D75201FD8E700AA876B /* Sources */,
+				4F703D76201FD8E700AA876B /* Frameworks */,
+				4F703D77201FD8E700AA876B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoopTV;
+			productName = HoopTV;
+			productReference = 4F703D79201FD8E700AA876B /* HoopTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F703D8C201FD8E700AA876B /* HoopTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F703DA4201FD8E700AA876B /* Build configuration list for PBXNativeTarget "HoopTVTests" */;
+			buildPhases = (
+				4F703D89201FD8E700AA876B /* Sources */,
+				4F703D8A201FD8E700AA876B /* Frameworks */,
+				4F703D8B201FD8E700AA876B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F703D8F201FD8E700AA876B /* PBXTargetDependency */,
+			);
+			name = HoopTVTests;
+			productName = HoopTVTests;
+			productReference = 4F703D8D201FD8E700AA876B /* HoopTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F703D97201FD8E700AA876B /* HoopTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F703DA7201FD8E700AA876B /* Build configuration list for PBXNativeTarget "HoopTVUITests" */;
+			buildPhases = (
+				4F703D94201FD8E700AA876B /* Sources */,
+				4F703D95201FD8E700AA876B /* Frameworks */,
+				4F703D96201FD8E700AA876B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F703D9A201FD8E700AA876B /* PBXTargetDependency */,
+			);
+			name = HoopTVUITests;
+			productName = HoopTVUITests;
+			productReference = 4F703D98201FD8E700AA876B /* HoopTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F703D71201FD8E700AA876B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Marquez Gallegos";
+				TargetAttributes = {
+					4F703D78201FD8E700AA876B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4F703D8C201FD8E700AA876B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4F703D78201FD8E700AA876B;
+					};
+					4F703D97201FD8E700AA876B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4F703D78201FD8E700AA876B;
+					};
+				};
+			};
+			buildConfigurationList = 4F703D74201FD8E700AA876B /* Build configuration list for PBXProject "HoopTV" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F703D70201FD8E700AA876B;
+			productRefGroup = 4F703D7A201FD8E700AA876B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F703D78201FD8E700AA876B /* HoopTV */,
+				4F703D8C201FD8E700AA876B /* HoopTVTests */,
+				4F703D97201FD8E700AA876B /* HoopTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F703D77201FD8E700AA876B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F703D87201FD8E700AA876B /* LaunchScreen.storyboard in Resources */,
+				4F703D84201FD8E700AA876B /* Assets.xcassets in Resources */,
+				4F703D82201FD8E700AA876B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F703D8B201FD8E700AA876B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F703D96201FD8E700AA876B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F703D75201FD8E700AA876B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F703D7F201FD8E700AA876B /* ViewController.swift in Sources */,
+				4F703D7D201FD8E700AA876B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F703D89201FD8E700AA876B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F703D92201FD8E700AA876B /* HoopTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F703D94201FD8E700AA876B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F703D9D201FD8E700AA876B /* HoopTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F703D8F201FD8E700AA876B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F703D78201FD8E700AA876B /* HoopTV */;
+			targetProxy = 4F703D8E201FD8E700AA876B /* PBXContainerItemProxy */;
+		};
+		4F703D9A201FD8E700AA876B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F703D78201FD8E700AA876B /* HoopTV */;
+			targetProxy = 4F703D99201FD8E700AA876B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F703D80201FD8E700AA876B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F703D81201FD8E700AA876B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F703D85201FD8E700AA876B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F703D86201FD8E700AA876B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F703D9F201FD8E700AA876B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F703DA0201FD8E700AA876B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F703DA2201FD8E700AA876B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EG3CQP3ZF9;
+				INFOPLIST_FILE = HoopTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marquezgalegos.HoopTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F703DA3201FD8E700AA876B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EG3CQP3ZF9;
+				INFOPLIST_FILE = HoopTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marquezgalegos.HoopTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F703DA5201FD8E700AA876B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EG3CQP3ZF9;
+				INFOPLIST_FILE = HoopTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marquezgalegos.HoopTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoopTV.app/HoopTV";
+			};
+			name = Debug;
+		};
+		4F703DA6201FD8E700AA876B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EG3CQP3ZF9;
+				INFOPLIST_FILE = HoopTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marquezgalegos.HoopTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoopTV.app/HoopTV";
+			};
+			name = Release;
+		};
+		4F703DA8201FD8E700AA876B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EG3CQP3ZF9;
+				INFOPLIST_FILE = HoopTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marquezgalegos.HoopTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoopTV;
+			};
+			name = Debug;
+		};
+		4F703DA9201FD8E700AA876B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EG3CQP3ZF9;
+				INFOPLIST_FILE = HoopTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marquezgalegos.HoopTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoopTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F703D74201FD8E700AA876B /* Build configuration list for PBXProject "HoopTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F703D9F201FD8E700AA876B /* Debug */,
+				4F703DA0201FD8E700AA876B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F703DA1201FD8E700AA876B /* Build configuration list for PBXNativeTarget "HoopTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F703DA2201FD8E700AA876B /* Debug */,
+				4F703DA3201FD8E700AA876B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F703DA4201FD8E700AA876B /* Build configuration list for PBXNativeTarget "HoopTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F703DA5201FD8E700AA876B /* Debug */,
+				4F703DA6201FD8E700AA876B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F703DA7201FD8E700AA876B /* Build configuration list for PBXNativeTarget "HoopTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F703DA8201FD8E700AA876B /* Debug */,
+				4F703DA9201FD8E700AA876B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F703D71201FD8E700AA876B /* Project object */;
+}
