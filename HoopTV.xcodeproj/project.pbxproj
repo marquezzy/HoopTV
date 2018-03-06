@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		4F703D7D201FD8E700AA876B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F703D7C201FD8E700AA876B /* AppDelegate.swift */; };
-		4F703D7F201FD8E700AA876B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F703D7E201FD8E700AA876B /* ViewController.swift */; };
-		4F703D82201FD8E700AA876B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F703D80201FD8E700AA876B /* Main.storyboard */; };
 		4F703D84201FD8E700AA876B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F703D83201FD8E700AA876B /* Assets.xcassets */; };
-		4F703D87201FD8E700AA876B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F703D85201FD8E700AA876B /* LaunchScreen.storyboard */; };
 		4F703D92201FD8E700AA876B /* HoopTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F703D91201FD8E700AA876B /* HoopTVTests.swift */; };
 		4F703D9D201FD8E700AA876B /* HoopTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F703D9C201FD8E700AA876B /* HoopTVUITests.swift */; };
+		4FC3D9E12048BE1600DB4CC7 /* SortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC3D9E02048BE1600DB4CC7 /* SortedArray.swift */; };
+		4FD7C44E20236A42001EDAF0 /* StartupValuesDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7C43720236A41001EDAF0 /* StartupValuesDataStore.swift */; };
+		4FD7C44F20236A42001EDAF0 /* GamesDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7C43820236A41001EDAF0 /* GamesDataStore.swift */; };
+		4FD7C45020236A42001EDAF0 /* SportConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7C43920236A41001EDAF0 /* SportConfigurationManager.swift */; };
+		4FD7C45120236A42001EDAF0 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7C43A20236A41001EDAF0 /* DataStore.swift */; };
+		4FD7C45220236A42001EDAF0 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7C43C20236A41001EDAF0 /* Game.swift */; };
+		4FD7C45320236A42001EDAF0 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7C43D20236A41001EDAF0 /* Sport.swift */; };
+		4FD7C45420236A42001EDAF0 /* StartupValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7C43E20236A41001EDAF0 /* StartupValues.swift */; };
+		4FD7C45520236A42001EDAF0 /* SportsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7C44120236A41001EDAF0 /* SportsViewController.xib */; };
+		4FD7C45620236A42001EDAF0 /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7C44220236A41001EDAF0 /* SportsViewController.swift */; };
+		4FD7C45720236A42001EDAF0 /* SportsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7C44320236A41001EDAF0 /* SportsTableViewCell.swift */; };
+		4FD7C45820236A42001EDAF0 /* SportsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7C44420236A41001EDAF0 /* SportsTableViewCell.xib */; };
+		4FD7C45920236A42001EDAF0 /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7C44620236A41001EDAF0 /* GamesViewController.swift */; };
+		4FD7C45A20236A42001EDAF0 /* GamesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7C44720236A41001EDAF0 /* GamesViewController.xib */; };
+		4FD7C45B20236A42001EDAF0 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7C44820236A41001EDAF0 /* GameTableViewCell.swift */; };
+		4FD7C45C20236A42001EDAF0 /* GamesHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7C44920236A41001EDAF0 /* GamesHeaderView.swift */; };
+		4FD7C45D20236A42001EDAF0 /* GameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7C44A20236A41001EDAF0 /* GameTableViewCell.xib */; };
+		4FD7C45E20236A42001EDAF0 /* GamesTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7C44B20236A41001EDAF0 /* GamesTableViewDataSource.swift */; };
+		4FD7C45F20236A42001EDAF0 /* GamesHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD7C44C20236A41001EDAF0 /* GamesHeaderView.xib */; };
+		4FD7C46020236A42001EDAF0 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7C44D20236A41001EDAF0 /* GameViewModel.swift */; };
+		8890555E3FBC9D6AE16C6849 /* Pods_HoopTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476C2E9AADC3E769A0170AA1 /* Pods_HoopTV.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		476C2E9AADC3E769A0170AA1 /* Pods_HoopTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoopTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F703D79201FD8E700AA876B /* HoopTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoopTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F703D7C201FD8E700AA876B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F703D7E201FD8E700AA876B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4F703D81201FD8E700AA876B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F703D83201FD8E700AA876B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F703D86201FD8E700AA876B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F703D88201FD8E700AA876B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F703D8D201FD8E700AA876B /* HoopTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoopTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F703D91201FD8E700AA876B /* HoopTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoopTVTests.swift; sourceTree = "<group>"; };
@@ -47,6 +63,28 @@
 		4F703D98201FD8E700AA876B /* HoopTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoopTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F703D9C201FD8E700AA876B /* HoopTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoopTVUITests.swift; sourceTree = "<group>"; };
 		4F703D9E201FD8E700AA876B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC3D9E02048BE1600DB4CC7 /* SortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortedArray.swift; sourceTree = "<group>"; };
+		4FD7C43720236A41001EDAF0 /* StartupValuesDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartupValuesDataStore.swift; sourceTree = "<group>"; };
+		4FD7C43820236A41001EDAF0 /* GamesDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesDataStore.swift; sourceTree = "<group>"; };
+		4FD7C43920236A41001EDAF0 /* SportConfigurationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportConfigurationManager.swift; sourceTree = "<group>"; };
+		4FD7C43A20236A41001EDAF0 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		4FD7C43C20236A41001EDAF0 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		4FD7C43D20236A41001EDAF0 /* Sport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
+		4FD7C43E20236A41001EDAF0 /* StartupValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartupValues.swift; sourceTree = "<group>"; };
+		4FD7C44120236A41001EDAF0 /* SportsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SportsViewController.xib; sourceTree = "<group>"; };
+		4FD7C44220236A41001EDAF0 /* SportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
+		4FD7C44320236A41001EDAF0 /* SportsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsTableViewCell.swift; sourceTree = "<group>"; };
+		4FD7C44420236A41001EDAF0 /* SportsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SportsTableViewCell.xib; sourceTree = "<group>"; };
+		4FD7C44620236A41001EDAF0 /* GamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
+		4FD7C44720236A41001EDAF0 /* GamesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GamesViewController.xib; sourceTree = "<group>"; };
+		4FD7C44820236A41001EDAF0 /* GameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		4FD7C44920236A41001EDAF0 /* GamesHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesHeaderView.swift; sourceTree = "<group>"; };
+		4FD7C44A20236A41001EDAF0 /* GameTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameTableViewCell.xib; sourceTree = "<group>"; };
+		4FD7C44B20236A41001EDAF0 /* GamesTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesTableViewDataSource.swift; sourceTree = "<group>"; };
+		4FD7C44C20236A41001EDAF0 /* GamesHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GamesHeaderView.xib; sourceTree = "<group>"; };
+		4FD7C44D20236A41001EDAF0 /* GameViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		6D3331EDCB340EBF531E6CFB /* Pods-HoopTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoopTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoopTV/Pods-HoopTV.release.xcconfig"; sourceTree = "<group>"; };
+		EE1E6AC08D2C5389E2804BF9 /* Pods-HoopTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoopTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HoopTV/Pods-HoopTV.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8890555E3FBC9D6AE16C6849 /* Pods_HoopTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +113,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30F61C1DD9EDEC79D90CCF51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				476C2E9AADC3E769A0170AA1 /* Pods_HoopTV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4F703D70201FD8E700AA876B = {
 			isa = PBXGroup;
 			children = (
+				4FD7C43520236A41001EDAF0 /* Classes */,
 				4F703D7B201FD8E700AA876B /* HoopTV */,
 				4F703D90201FD8E700AA876B /* HoopTVTests */,
 				4F703D9B201FD8E700AA876B /* HoopTVUITests */,
 				4F703D7A201FD8E700AA876B /* Products */,
+				65B5AFEBB6F7A01758F20EC8 /* Pods */,
+				30F61C1DD9EDEC79D90CCF51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				4F703D7C201FD8E700AA876B /* AppDelegate.swift */,
-				4F703D7E201FD8E700AA876B /* ViewController.swift */,
-				4F703D80201FD8E700AA876B /* Main.storyboard */,
 				4F703D83201FD8E700AA876B /* Assets.xcassets */,
-				4F703D85201FD8E700AA876B /* LaunchScreen.storyboard */,
 				4F703D88201FD8E700AA876B /* Info.plist */,
 			);
 			path = HoopTV;
@@ -125,6 +172,90 @@
 			path = HoopTVUITests;
 			sourceTree = "<group>";
 		};
+		4FC3D9DF2048BE1600DB4CC7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4FC3D9E02048BE1600DB4CC7 /* SortedArray.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4FD7C43520236A41001EDAF0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4FD7C43620236A41001EDAF0 /* DataStores */,
+				4FD7C43B20236A41001EDAF0 /* Models */,
+				4FD7C43F20236A41001EDAF0 /* ViewControllers */,
+				4FC3D9DF2048BE1600DB4CC7 /* Utilities */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4FD7C43620236A41001EDAF0 /* DataStores */ = {
+			isa = PBXGroup;
+			children = (
+				4FD7C43720236A41001EDAF0 /* StartupValuesDataStore.swift */,
+				4FD7C43820236A41001EDAF0 /* GamesDataStore.swift */,
+				4FD7C43920236A41001EDAF0 /* SportConfigurationManager.swift */,
+				4FD7C43A20236A41001EDAF0 /* DataStore.swift */,
+			);
+			path = DataStores;
+			sourceTree = "<group>";
+		};
+		4FD7C43B20236A41001EDAF0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4FD7C43C20236A41001EDAF0 /* Game.swift */,
+				4FD7C43D20236A41001EDAF0 /* Sport.swift */,
+				4FD7C43E20236A41001EDAF0 /* StartupValues.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4FD7C43F20236A41001EDAF0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4FD7C44020236A41001EDAF0 /* Sports */,
+				4FD7C44520236A41001EDAF0 /* Games */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4FD7C44020236A41001EDAF0 /* Sports */ = {
+			isa = PBXGroup;
+			children = (
+				4FD7C44120236A41001EDAF0 /* SportsViewController.xib */,
+				4FD7C44220236A41001EDAF0 /* SportsViewController.swift */,
+				4FD7C44320236A41001EDAF0 /* SportsTableViewCell.swift */,
+				4FD7C44420236A41001EDAF0 /* SportsTableViewCell.xib */,
+			);
+			path = Sports;
+			sourceTree = "<group>";
+		};
+		4FD7C44520236A41001EDAF0 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				4FD7C44620236A41001EDAF0 /* GamesViewController.swift */,
+				4FD7C44720236A41001EDAF0 /* GamesViewController.xib */,
+				4FD7C44820236A41001EDAF0 /* GameTableViewCell.swift */,
+				4FD7C44A20236A41001EDAF0 /* GameTableViewCell.xib */,
+				4FD7C44920236A41001EDAF0 /* GamesHeaderView.swift */,
+				4FD7C44B20236A41001EDAF0 /* GamesTableViewDataSource.swift */,
+				4FD7C44C20236A41001EDAF0 /* GamesHeaderView.xib */,
+				4FD7C44D20236A41001EDAF0 /* GameViewModel.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		65B5AFEBB6F7A01758F20EC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE1E6AC08D2C5389E2804BF9 /* Pods-HoopTV.debug.xcconfig */,
+				6D3331EDCB340EBF531E6CFB /* Pods-HoopTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F703DA1201FD8E700AA876B /* Build configuration list for PBXNativeTarget "HoopTV" */;
 			buildPhases = (
+				9CCA7C00CB3CDF890A29F4D2 /* [CP] Check Pods Manifest.lock */,
 				4F703D75201FD8E700AA876B /* Sources */,
 				4F703D76201FD8E700AA876B /* Frameworks */,
 				4F703D77201FD8E700AA876B /* Resources */,
+				B5E80036CCEC8BF05BABFA77 /* [CP] Embed Pods Frameworks */,
+				FA222F27DEA420EF8774909E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +366,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F703D87201FD8E700AA876B /* LaunchScreen.storyboard in Resources */,
+				4FD7C45A20236A42001EDAF0 /* GamesViewController.xib in Resources */,
+				4FD7C45F20236A42001EDAF0 /* GamesHeaderView.xib in Resources */,
+				4FD7C45D20236A42001EDAF0 /* GameTableViewCell.xib in Resources */,
 				4F703D84201FD8E700AA876B /* Assets.xcassets in Resources */,
-				4F703D82201FD8E700AA876B /* Main.storyboard in Resources */,
+				4FD7C45820236A42001EDAF0 /* SportsTableViewCell.xib in Resources */,
+				4FD7C45520236A42001EDAF0 /* SportsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +391,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9CCA7C00CB3CDF890A29F4D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HoopTV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5E80036CCEC8BF05BABFA77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HoopTV/Pods-HoopTV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoopTV/Pods-HoopTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA222F27DEA420EF8774909E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoopTV/Pods-HoopTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F703D75201FD8E700AA876B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F703D7F201FD8E700AA876B /* ViewController.swift in Sources */,
+				4FD7C45320236A42001EDAF0 /* Sport.swift in Sources */,
+				4FD7C45420236A42001EDAF0 /* StartupValues.swift in Sources */,
 				4F703D7D201FD8E700AA876B /* AppDelegate.swift in Sources */,
+				4FD7C46020236A42001EDAF0 /* GameViewModel.swift in Sources */,
+				4FD7C45220236A42001EDAF0 /* Game.swift in Sources */,
+				4FD7C45720236A42001EDAF0 /* SportsTableViewCell.swift in Sources */,
+				4FD7C45020236A42001EDAF0 /* SportConfigurationManager.swift in Sources */,
+				4FD7C44F20236A42001EDAF0 /* GamesDataStore.swift in Sources */,
+				4FD7C45920236A42001EDAF0 /* GamesViewController.swift in Sources */,
+				4FD7C45620236A42001EDAF0 /* SportsViewController.swift in Sources */,
+				4FD7C45C20236A42001EDAF0 /* GamesHeaderView.swift in Sources */,
+				4FD7C45120236A42001EDAF0 /* DataStore.swift in Sources */,
+				4FC3D9E12048BE1600DB4CC7 /* SortedArray.swift in Sources */,
+				4FD7C44E20236A42001EDAF0 /* StartupValuesDataStore.swift in Sources */,
+				4FD7C45E20236A42001EDAF0 /* GamesTableViewDataSource.swift in Sources */,
+				4FD7C45B20236A42001EDAF0 /* GameTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +501,6 @@
 			targetProxy = 4F703D99201FD8E700AA876B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4F703D80201FD8E700AA876B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F703D81201FD8E700AA876B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4F703D85201FD8E700AA876B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F703D86201FD8E700AA876B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4F703D9F201FD8E700AA876B /* Debug */ = {
@@ -424,6 +612,7 @@
 		};
 		4F703DA2201FD8E700AA876B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE1E6AC08D2C5389E2804BF9 /* Pods-HoopTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +628,7 @@
 		};
 		4F703DA3201FD8E700AA876B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D3331EDCB340EBF531E6CFB /* Pods-HoopTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
