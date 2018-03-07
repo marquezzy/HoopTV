@@ -37,16 +37,16 @@ class GamesTableViewDataSource {
         return self.sortedData[section].date
     }
     
-    public func numberOfSections () -> Int {
+    public func numberOfSections() -> Int {
         return self.sortedData.count
     }
     
-    public func numberOfRowsInSection ( section:Int ) -> Int {
+    public func numberOfRowsInSection(section:Int) -> Int {
         let dataSection = self.sortedData[section]
         return dataSection.games.count
     }
     
-    public func gameForIndexPath ( indexPath:IndexPath ) -> GameViewModel {
+    public func gameForIndexPath(indexPath:IndexPath) -> GameViewModel {
         return self.sortedData[indexPath.section].games[indexPath.row]
     }
 }
