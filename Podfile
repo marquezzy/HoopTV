@@ -6,4 +6,5 @@ use_frameworks!
 target 'HoopTV' do
   pod 'SDWebImage'
   pod 'NVActivityIndicatorView'
+  pod 'Magnetic'
 end

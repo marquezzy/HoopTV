@@ -59,7 +59,7 @@ struct CollegeConferences : Codable {
     let name: String
     let confId: String
     let context: String
-    let isPrimary: Bool
+    var isPrimary: Bool?
     
     enum CodingKeys : String, CodingKey {
         case abbrev = "Abbrev"

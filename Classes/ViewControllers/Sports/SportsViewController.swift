@@ -35,8 +35,10 @@ public class SportsViewController : UIViewController {
         
         StartupValuesDataStore().getStartupValues { [weak self] (startupValues, error) in
             if let startupValues = startupValues {
+                self?.tableView.beginUpdates()
                 self?.sports = startupValues.sports.filter{$0.sportType == SportType.basketball}
-                self?.tableView.reloadData()
+                self?.tableView.insertSections(IndexSet([0]), with: .top)
+                self?.tableView.endUpdates()
             }
         }
     }

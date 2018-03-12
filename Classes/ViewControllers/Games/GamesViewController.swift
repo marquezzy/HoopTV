@@ -24,6 +24,9 @@ public class GamesViewController : UIViewController {
     var lastDateLoaded:Date?
     var keepLoadingGames:Bool = true
     
+    // approximate number of games that fill up a single phone screen
+    let approximatePageSize = 12
+    
     init(sport:Sport) {
         self.sport = sport
         self.dataSource = GamesTableViewDataSource()
@@ -75,8 +78,12 @@ public class GamesViewController : UIViewController {
             if let games = games, games.count > 0 {
                 let tvGames = games.filter{$0.tvStations != nil}.map{GameViewModel(game:$0)}
                 if tvGames.count > 0 {
+                    
+                    // peak at the first game to get the game date
                     let game = games.first
                     let sectionDate = Calendar.current.startOfDay(for: game!.startTime)
+                    
+                    // update tableview & data source
                     strongSelf.tableView.beginUpdates()
                     let index = strongSelf.dataSource.insertGames(date: sectionDate, games: tvGames)
                     strongSelf.tableView.insertSections(IndexSet([index]), with: .top)
@@ -84,7 +91,7 @@ public class GamesViewController : UIViewController {
                 }
             }
             
-            if strongSelf.dataSource.count < 24 {
+            if strongSelf.dataSource.count < strongSelf.approximatePageSize {
                 strongSelf.loadGames(startDate: endDate)
             }
         }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F5DC9BF20535F0100797262 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5DC9BE20535F0100797262 /* Launch Screen.storyboard */; };
+		4F5DC9C12056485000797262 /* SportsBubbleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5DC9C02056485000797262 /* SportsBubbleViewController.swift */; };
 		4F703D7D201FD8E700AA876B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F703D7C201FD8E700AA876B /* AppDelegate.swift */; };
 		4F703D84201FD8E700AA876B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F703D83201FD8E700AA876B /* Assets.xcassets */; };
 		4F703D92201FD8E700AA876B /* HoopTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F703D91201FD8E700AA876B /* HoopTVTests.swift */; };
@@ -53,6 +55,8 @@
 
 /* Begin PBXFileReference section */
 		476C2E9AADC3E769A0170AA1 /* Pods_HoopTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoopTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5DC9BE20535F0100797262 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4F5DC9C02056485000797262 /* SportsBubbleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsBubbleViewController.swift; sourceTree = "<group>"; };
 		4F703D79201FD8E700AA876B /* HoopTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoopTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F703D7C201FD8E700AA876B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F703D83201FD8E700AA876B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -150,6 +154,7 @@
 				4F703D7C201FD8E700AA876B /* AppDelegate.swift */,
 				4F703D83201FD8E700AA876B /* Assets.xcassets */,
 				4F703D88201FD8E700AA876B /* Info.plist */,
+				4F5DC9BE20535F0100797262 /* Launch Screen.storyboard */,
 			);
 			path = HoopTV;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				4FD7C44220236A41001EDAF0 /* SportsViewController.swift */,
 				4FD7C44320236A41001EDAF0 /* SportsTableViewCell.swift */,
 				4FD7C44420236A41001EDAF0 /* SportsTableViewCell.xib */,
+				4F5DC9C02056485000797262 /* SportsBubbleViewController.swift */,
 			);
 			path = Sports;
 			sourceTree = "<group>";
@@ -372,6 +378,7 @@
 				4F703D84201FD8E700AA876B /* Assets.xcassets in Resources */,
 				4FD7C45820236A42001EDAF0 /* SportsTableViewCell.xib in Resources */,
 				4FD7C45520236A42001EDAF0 /* SportsViewController.xib in Resources */,
+				4F5DC9BF20535F0100797262 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,11 +424,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HoopTV/Pods-HoopTV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Magnetic/Magnetic.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Magnetic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
@@ -463,6 +472,7 @@
 				4FD7C45920236A42001EDAF0 /* GamesViewController.swift in Sources */,
 				4FD7C45620236A42001EDAF0 /* SportsViewController.swift in Sources */,
 				4FD7C45C20236A42001EDAF0 /* GamesHeaderView.swift in Sources */,
+				4F5DC9C12056485000797262 /* SportsBubbleViewController.swift in Sources */,
 				4FD7C45120236A42001EDAF0 /* DataStore.swift in Sources */,
 				4FC3D9E12048BE1600DB4CC7 /* SortedArray.swift in Sources */,
 				4FD7C44E20236A42001EDAF0 /* StartupValuesDataStore.swift in Sources */,
